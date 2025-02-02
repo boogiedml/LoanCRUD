@@ -32,17 +32,15 @@ Create an `appsettings.json` file in the root directory and configure the follow
 
 ```json
 {
-  "Firebase": {
-    "ProjectId": "your-firebase-project-id",
-    "CredentialsPath": "path-to-your-firebase-adminsdk.json"
-  },
   "Logging": {
     "LogLevel": {
       "Default": "Information",
       "Microsoft.AspNetCore": "Warning"
     }
   },
-  "AllowedHosts": "*"
+  "AllowedHosts": "*",
+   "FirestoreProjectId": "your-firebase-project-id",
+   "GoogleCredentialsPath": "path-to-your-firebase-adminsdk.json"
 }
 ```
 
