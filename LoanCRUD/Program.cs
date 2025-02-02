@@ -53,7 +53,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
-// Use CORS before authorization
 app.UseCors("AllowVueApp");
 
 app.UseAuthorization();
